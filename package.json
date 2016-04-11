@@ -1,0 +1,17 @@
+{
+  "name": "cli-scratch",
+  "version": "1.0.0",
+  "license": "MIT",
+  "candycane-cli": {},
+  "scripts": {
+    "start": "candycane server"
+  },
+  "private": true,
+  "dependencies": {
+    "candycane": "0.0.*"
+  },
+  "devDependencies": {
+    "candycane-cli": "0.*.*",
+    "ember-cli": "^2.4.3"
+  }
+}
