@@ -17,12 +17,12 @@
     "broccoli-merge-trees": "^1.1.1",
     "candycane": "0.*.*",
     "candycane-bookshelf": "^0.1.0",
+    "candycane-cli": "0.*.*",
     "candycane-jsonapi-mapper": "0.0.1",
     "candycane-knex": "^0.1.0",
+    "ember-cli": "^2.4.3",
     "pg": "^4.5.3"
   },
   "devDependencies": {
-    "candycane-cli": "0.*.*",
-    "ember-cli": "^2.4.3"
   }
 }
