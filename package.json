@@ -5,7 +5,7 @@
   "candycane-cli": {},
   "scripts": {
     "postinstall": "./node_modules/.bin/candycane build",
-    "start": "./dist/bin/www"
+    "start": "node ./dist/bin/www"
   },
   "private": true,
   "dependencies": {
