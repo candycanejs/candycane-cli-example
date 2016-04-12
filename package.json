@@ -4,7 +4,7 @@
   "license": "MIT",
   "candycane-cli": {},
   "scripts": {
-    "postinstall": "candycane build",
+    "postinstall": "./node_modules/.bin/candycane build",
     "start": "./dist/bin/www"
   },
   "private": true,
