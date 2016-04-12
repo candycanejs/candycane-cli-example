@@ -18,7 +18,7 @@
     "candycane": "0.*.*",
     "candycane-bookshelf": "^0.1.0",
     "candycane-cli": "0.*.*",
-    "candycane-jsonapi-mapper": "0.*",
+    "candycane-jsonapi-mapper": "0.*.*",
     "candycane-knex": "^0.1.0",
     "ember-cli": "^2.4.3",
     "pg": "^4.5.3"
