@@ -1,6 +1,6 @@
 // Update with your config settings.
 
-module.exports = {
+var config = {
   development: {
     client: 'postgresql',
     connection: {
@@ -10,3 +10,9 @@ module.exports = {
     }
   },
 };
+
+if (process.env.DATABASE_URL) {
+  config.database.connection = process.env.DATABASE_URL;
+}
+
+module.exports = config;

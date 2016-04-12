@@ -13,4 +13,8 @@ const config = {
   }
 };
 
+if (process.env.DATABASE_URL) {
+  config.database.connection = process.env.DATABASE_URL;
+}
+
 export default config;
