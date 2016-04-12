@@ -1,5 +1,4 @@
 [
   "candycane-knex",
-  "candycane-bookshelf",
-  "candycane-jsonapi-mapper"
+  "candycane-bookshelf"
 ]

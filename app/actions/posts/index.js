@@ -1,5 +1,5 @@
 import Action from 'candycane/dist/http/action';
-import map from 'candycane-jsonapi-mapper/dist/decorator';
+import map from 'candycane-jsonapi-mapper';
 
 @map('post')
 export default class PostsIndex extends Action {

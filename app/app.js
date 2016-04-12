@@ -8,4 +8,6 @@ const app = new Application({
 
 app.boot();
 
+debugger;
+
 export default app;
