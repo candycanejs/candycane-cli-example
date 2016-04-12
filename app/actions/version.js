@@ -9,6 +9,7 @@ export default class Version extends Action {
   data() {
     return {
       version: `1.0.0`,
+      name: `candycane`
     };
   }
 }
