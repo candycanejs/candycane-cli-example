@@ -12,7 +12,7 @@ var config = {
 };
 
 if (process.env.DATABASE_URL) {
-  config.database.connection = process.env.DATABASE_URL;
+  config.development.connection = process.env.DATABASE_URL;
 }
 
 module.exports = config;
