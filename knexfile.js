@@ -7,7 +7,11 @@ var config = {
       database: 'blog-test',
       user:     process.env.USER,
       password: '',
-    }
+    },
+  },
+  production: {
+    client: 'postgresql',
+    connection: process.env.DATABASE_URL,
   },
 };
 
